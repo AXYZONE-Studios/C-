@@ -1,0 +1,10 @@
+// Sample program demonstrating the declaration and use of an array.
+import stdout;
+
+func main()
+{
+        list int numbers = [1, 2, 3, 4, 5]; // Creates an array that holds int values
+        stdout(numbers);
+
+        return 0;
+}
