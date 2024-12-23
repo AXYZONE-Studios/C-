@@ -1,0 +1,18 @@
+import rand;
+import stdin;
+import stdout;
+
+func main()
+{
+        bool willRun;
+
+        stdout("Podaj liczbę: ");
+        stdin(willRun);
+
+        while (!willRun)
+        {
+                willRun = rand:bool();
+        }
+
+        return 0;
+}
